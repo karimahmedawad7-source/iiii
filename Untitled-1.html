@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<met ahttp-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Learn JavaScript</title>
+</head>
+<body>
+
+
+<form action="">
+<input type="text" id="hd" placeholder="text" 
+/>
+<input type="number" id="hhd" placeholder="number">
+
+</form>
+<hr>
+<button onclick="
+    let nn = document.getElementById('hhd')
+    for (let i = 0 ; i < nn.value ;i++) {
+    let txt = document.getElementById('hd')
+    let pp = document.createElement('span')
+    pp.textContent=txt.value + ' ';
+    document.body.appendChild(pp); }">click here</button>
+
+</body>
+</html> 
